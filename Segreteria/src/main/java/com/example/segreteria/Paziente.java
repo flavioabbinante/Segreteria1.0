@@ -38,4 +38,8 @@ public class Paziente {
     public void setPatologia(String patologia) {
         Patologia = patologia;
     }
+
+    public String toString(){
+        return this.getCognome() + " "+ this.getNome() + " " + this.getPatologia();
+    }
 }
